@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Shopping App</title>
+    <style>
+    	.category {
+    		text-transform: Capitalize;
+    	}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row w-100">
+            <div class="jumbotron w-100 d-flex flex-column" style="border-radius: 0">
+                <input name="name" type="text" placeholder="Enter Product Category to search" class="form-control" autocomplete="off">
+            	<button class="btn btn-primary my-2" onclick="showCart()">View Cart</button>
+            </div>
+        </div>
+        <div class="row w-100" id="ProductDetailsContainer"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
